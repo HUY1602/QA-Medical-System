@@ -1,0 +1,9 @@
+torch
+transformers
+peft
+datasets
+trl
+wandb
+pandas
+matplotlib
+tqdm

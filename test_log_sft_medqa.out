@@ -1,0 +1,17 @@
+Đang tải Tokenizer từ mô hình gốc...
+Đang tải Base Model lên GPU...
+Đang ghép trọng số LoRA SFT vào mô hình...
+
+Đang Test mô hình SFT /data2/cmdir/home/ioit107/mqhuy/medModel/medqa-qwen-sft/final_model...
+Đang tải dữ liệu từ /data2/cmdir/home/ioit107/mqhuy/medModel/MedQA-USMLE/questions/US/test.jsonl...
+Tổng số câu hỏi cần test: 1273
+
+
+=======================================================
+BÁO CÁO KẾT QUẢ KIỂM THỬ SFT (TEST REPORT)
+=======================================================
+Tổng số câu hỏi    : 1273
+Số câu trả lời đúng: 759
+Độ chính xác (Acc) : 59.62%
+=======================================================
+Chi tiết từng câu hỏi đã được lưu tại: medqa_sft_test_results.jsonl

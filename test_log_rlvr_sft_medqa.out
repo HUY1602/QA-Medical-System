@@ -1,0 +1,23 @@
+Đang tải Tokenizer từ mô hình gốc...
+Đang tải Base Model lên GPU...
+Đang ghép trọng số LoRA vào mô hình...
+
+Đang Test mô hình /data2/cmdir/home/ioit107/mqhuy/medModel/medqa-qwen-grpo-1epoch/checkpoint-600...
+
+Đang tải dữ liệu từ /data2/cmdir/home/ioit107/mqhuy/medModel/MedQA-USMLE/questions/US/test.jsonl...
+Tổng số câu hỏi cần test: 1273
+
+
+=======================================================
+BÁO CÁO KẾT QUẢ KIỂM THỬ (TEST REPORT)
+=======================================================
+Tổng số câu hỏi    : 1273
+Số câu trả lời đúng: 805
+Độ chính xác (Acc) : 63.24%
+-------------------------------------------------------
+THỐNG KÊ HOẠT ĐỘNG SUY LUẬN (<think>):
+- CÓ suy luận chi tiết   : 1267 câu
+- Thẻ <think> rỗng/ngắn  : 0 câu (Lỗi lười biếng)
+- Thiếu thẻ <think>      : 6 câu (Lỗi định dạng)
+=======================================================
+Chi tiết từng câu hỏi đã được lưu tại: medqa_test_results_1e.jsonl

@@ -1,0 +1,21 @@
+Đang tải Tokenizer từ mô hình gốc...
+Đang tải Base Model lên GPU...
+Đang ghép trọng số LoRA từ /data2/cmdir/home/ioit107/mqhuy/medModel/checkpoint-700-e2...
+
+Đang tải dữ liệu từ /data2/cmdir/home/ioit107/mqhuy/medModel/MMLU-Pro-Health/test.jsonl...
+Tổng số câu hỏi cần test: 818
+
+
+=======================================================
+BÁO CÁO KẾT QUẢ KIỂM THỬ MMLU (TEST REPORT)
+=======================================================
+Tổng số câu hỏi    : 818
+Số câu trả lời đúng: 486
+Độ chính xác (Acc) : 59.41%
+-------------------------------------------------------
+THỐNG KÊ HOẠT ĐỘNG SUY LUẬN (<think>):
+- CÓ suy luận chi tiết   : 773 câu
+- Thẻ <think> rỗng/ngắn  : 32 câu (Lỗi lười biếng)
+- Thiếu thẻ <think>      : 13 câu (Lỗi định dạng)
+=======================================================
+Chi tiết từng câu hỏi đã được lưu tại: medqa_test_mmlu_e2_cp700.jsonl

@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs and temp
+*.log
+*.tmp
+*.bak
+*.swp
+.DS_Store
+
+# Local env
+.env
+
+# VS Code
+.vscode/
+
+# Data and outputs
+*.csv
+*.jsonl
+*.safetensors
+*.pt
+*.pth
+*.bin
+*.ckpt
+*.tfevents*
+
+# Model artifacts and caches
+checkpoint-*/
+e3_final_model/
+offload/
+
+# Datasets (large)
+MedQA-USMLE/
+MMLU-Pro-Health/
