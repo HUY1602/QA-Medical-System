@@ -5,7 +5,6 @@ Dự án huấn luyện và đánh giá mô hình ngôn ngữ cho bài toán h�
 - Fine-tuning bằng **Supervised Fine-Tuning (SFT)** với LoRA.
 - Huấn luyện **RLVR/GRPO** với hàm reward kiểm tra định dạng suy luận và đáp án.
 - Đánh giá trên tập **MedQA-USMLE** và **MMLU-Pro-Health**.
-- Gộp trọng số LoRA vào mô hình gốc để tạo mô hình hoàn chỉnh.
 
 ## Yêu cầu hệ thống
 
